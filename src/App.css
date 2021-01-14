@@ -1,0 +1,149 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: black;
+}
+
+body {
+   background-color: black;
+}
+
+#container {
+   position: absolute;
+   width: 600px;
+   left: 0;
+   right: 0;
+   margin: 100px auto 0px auto;
+}
+
+.props {
+   padding: 20px;
+   color: white;
+}
+
+.props a {
+   color: inherit;
+   font-weight: 700;
+   text-decoration: none;
+}
+
+.product {
+   display: flex;
+   margin-bottom: 60px;
+   padding: 20px;
+   background: white;
+   border-radius: 30px;
+   border: 15px solid white;
+   min-height: 180px;
+}
+
+.product-image {
+   max-width: 114px;
+}
+
+.blank-image {
+   height: 114px;
+   width: 114px;
+   background-color: purple;
+}
+
+.product-title {
+   position: absolute;
+   left: 170px;
+
+   margin-top: 30px;
+}
+
+.product-content {
+   list-style: none;
+   position: absolute;
+   left: 375px;
+
+   margin-top: 10px;
+
+   font-size: 22px;
+   font-weight: 500;
+}
+
+.buttons {
+   position: absolute;
+   margin-top: 10px;
+   right: -50px;
+   display: flex;
+   flex-direction: column;
+}
+
+.button {
+   cursor: pointer;
+   margin-bottom: 20px;
+   padding: 5px;
+   min-width: 43px;
+   font-size: 20px;
+   font-weight: 900;
+}
+
+.delete {
+   background-color: lightcoral;
+}
+.edit {
+   background-color: lightgreen;
+}
+
+.input-box {
+   position: absolute;
+   left: 170px;
+   margin-top: 40px;
+
+   min-height: 32px;
+   max-width: 185px;
+
+   font-size: 32px;
+   font-weight: 700;
+}
+
+.s-input-box {
+   max-width: 120px;
+   font-size: 22px;
+}
+
+.ss-input-box {
+   max-width: 60px;
+   font-size: 22px;
+}
+
+.reset {
+   position: fixed;
+   top: 50px;
+   left: 50px;
+   padding: 10px;
+   font-size: 30px;
+   font-weight: 900;
+   cursor: pointer;
+}
+
+.create-title {
+   position: absolute;
+   top: 0;
+   width: fit-content;
+   padding: 10px;
+   left: 0;
+   right: 0;
+   margin: auto;
+}
+
+.create {
+   height: 200px;
+}
+
+.create-component {
+   margin-top: 25px;
+}
+
+.create-input-box {
+   margin-top: 65px;
+}
+
+.create-content {
+   margin-top: 35px;
+}
